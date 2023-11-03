@@ -1,2 +1,27 @@
 # html-css-problem
 i cant align/change positions in css code 
+this is the css code:-
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif 
+
+}
+.container{
+    width: 100%;
+}
+.container{
+    width:80%;
+    margin:auto;
+}
+.row{
+    width:80%;
+    margin:auto;
+}
+.container .row .header{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
